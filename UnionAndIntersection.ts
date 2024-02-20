@@ -1,0 +1,1 @@
+    export type Statuses = 'PENDING' | 'ONGOING' | 'DONE'
