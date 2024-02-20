@@ -9,3 +9,7 @@ let category1: 'Manager' | 'Non-Manager' = 'Manager'
 type EmployeeCategory = 'Manager' | 'Non-Manager'
 
 let category2: EmployeeCategory = 'Manager'
+
+const getEmployeeCategory = (PreferredEmployee: EmployeeCategory): String => {
+    return PreferredEmployee
+}
